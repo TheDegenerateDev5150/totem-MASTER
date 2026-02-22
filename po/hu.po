@@ -1,18 +1,18 @@
 # Hungarian translation for totem.
-# Copyright (C) 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2019, 2020, 2022, 2023, 2025 Free Software Foundation, Inc.
+# Copyright (C) 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2019, 2020, 2022, 2023, 2025, 2026 Free Software Foundation, Inc.
 # This file is distributed under the same license as the totem package.
 #
 # Laszlo Dvornik <dvornik at gnome dot hu>, 2004, 2005.
 # Gabor Kelemen <kelemeng at gnome dot hu>, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2014, 2017.
 # Lukács Bence <lukacs.bence1 at gmail dot com>, 2012.
-# Balázs Úr <ur.balazs at fsf dot hu>, 2013, 2014, 2015, 2016, 2019, 2021, 2022, 2023, 2025.
+# Balázs Úr <ur.balazs at fsf dot hu>, 2013, 2014, 2015, 2016, 2019, 2021, 2022, 2023, 2025, 2026.
 # Balázs Meskó <mesko.balazs at fsf dot hu>, 2020, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: totem master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/totem/issues\n"
-"POT-Creation-Date: 2025-08-31 19:11+0000\n"
-"PO-Revision-Date: 2025-09-01 14:20+0200\n"
+"POT-Creation-Date: 2026-02-06 12:47+0000\n"
+"PO-Revision-Date: 2026-02-22 09:54+0100\n"
 "Last-Translator: Balázs Úr <ur.balazs at fsf dot hu>\n"
 "Language-Team: Hungarian <openscope at fsf dot hu>\n"
 "Language: hu\n"
@@ -20,12 +20,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.12.3\n"
+"X-Generator: Lokalize 25.08.1\n"
 
 #: data/metainfo/org.gnome.Totem.metainfo.xml.in.in:6 data/totem.ui:472
-#: src/totem.c:34 src/totem-grilo.c:1897
-msgid "Videos"
-msgstr "Videók"
+#: src/totem.c:34
+msgid "Totem"
+msgstr "Totem"
 
 #: data/metainfo/org.gnome.Totem.metainfo.xml.in.in:7
 #: data/org.gnome.Totem.desktop.in.in:3
@@ -33,29 +33,34 @@ msgid "Play movies"
 msgstr "Filmek lejátszása"
 
 #: data/metainfo/org.gnome.Totem.metainfo.xml.in.in:11
+#| msgid ""
+#| "Videos is the official movie player of the GNOME desktop environment. It "
+#| "features a searchable list of local videos, and DVDs, as well as local "
+#| "network video shares (using UPnP/DLNA) and video highlights from a number "
+#| "of web sites."
 msgid ""
-"Videos is the official movie player of the GNOME desktop environment. It "
+"Totem is the historical movie player for the GNOME desktop environment. It "
 "features a searchable list of local videos, and DVDs, as well as local "
-"network video shares (using UPnP/DLNA) and video highlights from a number of "
-"web sites."
+"network video shares (using UPnP/DLNA)."
 msgstr ""
-"A Videók a GNOME asztali környezet hivatalos videolejátszója. A helyi videók "
-"és DVD-k kereshető listáját tartalmazza, valamint a helyi hálózaton elérhető "
-"videomegosztásokat (UPnP/DLNA használatával) és videokiemeléseket számos "
-"weboldalról."
+"A Totem a GNOME asztali környezet régi időbeli videolejátszója. A helyi videók"
+" és DVD-k kereshető listáját tartalmazza, valamint a helyi hálózaton elérhető "
+"videomegosztásokat (UPnP/DLNA használatával)."
 
-#: data/metainfo/org.gnome.Totem.metainfo.xml.in.in:17
+#: data/metainfo/org.gnome.Totem.metainfo.xml.in.in:16
+#| msgid ""
+#| "Videos comes with added functionality such as a subtitle downloader, the "
+#| "ability to speed up or down playback, create screenshot galleries, and "
+#| "support for recording DVDs."
 msgid ""
-"Videos comes with added functionality such as a subtitle downloader, the "
-"ability to speed up or down playback, create screenshot galleries, and "
-"support for recording DVDs."
+"Totem comes with added functionality such as a subtitle downloader, the "
+"ability to speed up or down playback, and creating screenshot galleries."
 msgstr ""
-"A Videók további hozzáadott funkciókat is tartalmaz, mint például "
-"feliratletöltő, a lejátszás gyorsításának vagy lassításának képessége, "
-"képernyőkép-galériák létrehozása és DVD-felvételek támogatása."
+"A Totem további hozzáadott funkciókat is tartalmaz, mint például feliratletölt"
+"ő, a lejátszás gyorsításának vagy lassításának képessége, valamint képernyőkép"
+"-galériák létrehozása."
 
-#: data/metainfo/org.gnome.Totem.metainfo.xml.in.in:44
-#| msgid "The GNOME developers"
+#: data/metainfo/org.gnome.Totem.metainfo.xml.in.in:42
 msgid "The GNOME Project"
 msgstr "A GNOME projekt"
 
@@ -923,8 +928,9 @@ msgid "Select None"
 msgstr "Kijelölés törlése"
 
 #: src/totem.c:32
-msgid "Videos Preview"
-msgstr "Videók előnézete"
+#| msgid "Videos Preview"
+msgid "Totem Preview"
+msgstr "Totem előnézete"
 
 #. Translators: The first string is "Filename" (as translated); the second is an actual filename.
 #. The third string is "Resolution" (as translated); the fourth and fifth are screenshot height and width, respectively.
@@ -975,6 +981,10 @@ msgstr "Keresési hiba"
 #: src/totem-grilo.c:1303
 msgid "Local"
 msgstr "Helyi"
+
+#: src/totem-grilo.c:1897
+msgid "Videos"
+msgstr "Videók"
 
 #: src/totem-grilo.c:1906 src/plugins/properties/properties.ui:722
 msgid "Channels"
@@ -1046,20 +1056,23 @@ msgstr "Lejátszás"
 
 #: src/totem-object.c:1480 src/totem-object.c:1506 src/totem-object.c:2093
 #, c-format
-msgid "Videos could not play “%s”."
-msgstr "A Videók nem tudta lejátszani a következőt: „%s”."
+#| msgid "Videos could not play “%s”."
+msgid "Totem could not play “%s”."
+msgstr "A Totem nem tudta lejátszani a következőt: „%s”."
 
 #: src/totem-object.c:2262
-msgid "Videos could not display the help contents."
-msgstr "A Videók nem tudta megjeleníteni a súgótartalmat."
+#| msgid "Videos could not display the help contents."
+msgid "Totem could not display the help contents."
+msgstr "A Totem nem tudta megjeleníteni a súgótartalmat."
 
 #: src/totem-object.c:2509
 msgid "An error occurred"
 msgstr "Hiba történt"
 
 #: src/totem-object.c:3937
-msgid "Videos could not startup."
-msgstr "A Videók nem tudott elindulni."
+#| msgid "Videos could not startup."
+msgid "Totem could not startup."
+msgstr "A Totem nem tudott elindulni."
 
 #: src/totem-object.c:3938 src/plugins/screenshot/totem-screenshot-plugin.c:163
 msgid "No reason."
@@ -1688,17 +1701,22 @@ msgid "You can access the Totem.Object through “totem_object” :\\n%s"
 msgstr "A Totem.Object a következő „totem_object” segítségével érhető el:\\n%s"
 
 #: src/plugins/pythonconsole/pythonconsole.py:81
-msgid "Videos Python Console"
-msgstr "Videók Python-konzolja"
+#| msgid "Python Console"
+msgid "Totem Python Console"
+msgstr "Totem Python konzol"
 
 #. pylint: disable=W0613
 #: src/plugins/pythonconsole/pythonconsole.py:91
+#| msgid ""
+#| "After you press OK, Videos will wait until you connect to it with winpdb "
+#| "or rpdb2. If you have not set a debugger password in DConf, it will use "
+#| "the default password (“totem”)."
 msgid ""
-"After you press OK, Videos will wait until you connect to it with winpdb or "
+"After you press OK, Totem will wait until you connect to it with winpdb or "
 "rpdb2. If you have not set a debugger password in DConf, it will use the "
 "default password (“totem”)."
 msgstr ""
-"Az OK gomb megnyomása után a Videók megvárja, amíg winpdb vagy rpdb2 "
+"Az OK gomb megnyomása után a Totem megvárja, amíg winpdb vagy rpdb2 "
 "segítségével csatlakozik hozzá. Ha nem állított be hibakeresési jelszót a "
 "DConf-ban, akkor az alapértelmezett („totem”) kerül használatra."
 
@@ -1734,22 +1752,22 @@ msgstr "Másolat mentése"
 msgid "Save a copy of the currently playing movie"
 msgstr "A jelenleg lejátszott videó másolása"
 
-#: src/plugins/save-file/totem-save-file.c:75
+#: src/plugins/save-file/totem-save-file.c:77
 msgid "The video could not be made available offline."
 msgstr "A videót nem sikerült elérhetővé tenni kapcsolat nélkül használathoz."
 
 #. translators: “Files” refers to nautilus' name
-#: src/plugins/save-file/totem-save-file.c:77
+#: src/plugins/save-file/totem-save-file.c:79
 msgid "“Files” is not available."
 msgstr "A „Fájlok” nem érhető el."
 
 #. translators: Movie is the default saved movie filename,
 #. * without the suffix
-#: src/plugins/save-file/totem-save-file.c:158
+#: src/plugins/save-file/totem-save-file.c:137
 msgid "Movie"
 msgstr "Film"
 
-#: src/plugins/save-file/totem-save-file.c:441
+#: src/plugins/save-file/totem-save-file.c:313
 msgid "Make Available Offline"
 msgstr "Elérhetővé tétel kapcsolat nélkül"
 
@@ -1814,8 +1832,9 @@ msgstr "_Mentés"
 
 #: src/plugins/screenshot/totem-screenshot-plugin.c:163
 #: src/plugins/screenshot/totem-screenshot-plugin.c:170
-msgid "Videos could not get a screenshot of the video."
-msgstr "A Videók nem tudott képernyőképet készíteni a videóról."
+#| msgid "Videos could not get a screenshot of the video."
+msgid "Totem could not get a screenshot of the video."
+msgstr "A Totem nem tud képernyőképet készíteni a videóról."
 
 #: src/plugins/screenshot/totem-screenshot-plugin.c:170
 msgid "This is not supposed to happen; please file a bug report."
