@@ -32,10 +32,12 @@
   </recommends>
   <screenshots>
     <screenshot type="default">
-      <image>https://gitlab.gnome.org/GNOME/totem/raw/HEAD/data/metainfo/ss-player.png</image>
+        <image>https://gitlab.gnome.org/GNOME/totem/raw/HEAD/data/metainfo/ss-player.png</image>
+        <caption>Playing a video</caption>
     </screenshot>
     <screenshot>
-      <image>https://gitlab.gnome.org/GNOME/totem/raw/HEAD/data/metainfo/ss-videos.png</image>
+        <image>https://gitlab.gnome.org/GNOME/totem/raw/HEAD/data/metainfo/ss-videos.png</image>
+        <caption>Browsing videos</caption>
     </screenshot>
   </screenshots>
   <update_contact>hadess@hadess.net</update_contact>
