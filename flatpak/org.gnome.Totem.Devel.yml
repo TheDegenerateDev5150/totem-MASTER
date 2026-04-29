@@ -185,6 +185,7 @@ modules:
       - -Dudev=disabled
       - -Dsystemd=disabled
       - -Dbuild_gtk4=false
+      - -Dqr=disabled
     sources:
       - type: git
         url: https://gitlab.gnome.org/GNOME/gnome-desktop.git
