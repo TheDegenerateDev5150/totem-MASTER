@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: totem master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/totem/issues\n"
-"POT-Creation-Date: 2026-01-14 23:45+0000\n"
-"PO-Revision-Date: 2026-01-15 09:54+0100\n"
+"POT-Creation-Date: 2026-04-29 22:34+0000\n"
+"PO-Revision-Date: 2026-05-01 13:49+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "Language: sl_SI\n"
@@ -48,7 +48,15 @@ msgstr ""
 "Program Totem ima dodatne funkcije: prenos podnaslovov, hitro in počasno predvajanje "
 "posnetka ter ustvarjanje galerij zaslonskih posnetkov."
 
-#: data/metainfo/org.gnome.Totem.metainfo.xml.in.in:42
+#: data/metainfo/org.gnome.Totem.metainfo.xml.in.in:36
+msgid "Playing a video"
+msgstr "Predvajanje videoposnetka"
+
+#: data/metainfo/org.gnome.Totem.metainfo.xml.in.in:40
+msgid "Browsing videos"
+msgstr "Pregledovanje videoposnetkov"
+
+#: data/metainfo/org.gnome.Totem.metainfo.xml.in.in:44
 msgid "The GNOME Project"
 msgstr "Projekt GNOME"
 
@@ -1725,22 +1733,22 @@ msgstr "Shrani kopijo"
 msgid "Save a copy of the currently playing movie"
 msgstr "Shrani kopijo trenutno predvajanega posnetka"
 
-#: src/plugins/save-file/totem-save-file.c:75
+#: src/plugins/save-file/totem-save-file.c:77
 msgid "The video could not be made available offline."
 msgstr "Videa ni mogoče prejeti za delo brez povezave."
 
 #. translators: “Files” refers to nautilus' name
-#: src/plugins/save-file/totem-save-file.c:77
+#: src/plugins/save-file/totem-save-file.c:79
 msgid "“Files” is not available."
 msgstr "»Urejevalnik datotek« ni na voljo."
 
 #. translators: Movie is the default saved movie filename,
 #. * without the suffix
-#: src/plugins/save-file/totem-save-file.c:158
+#: src/plugins/save-file/totem-save-file.c:137
 msgid "Movie"
 msgstr "Film"
 
-#: src/plugins/save-file/totem-save-file.c:441
+#: src/plugins/save-file/totem-save-file.c:313
 msgid "Make Available Offline"
 msgstr "Omogoči dostop preko spleta"
 
